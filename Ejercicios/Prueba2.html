@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Práctica 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .formulario {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        </style>
 </head>
 <body>
     <h1>Práctica 2</h1>
 
-        <img src="imagenes/imagen.png" alt="Imagen de ejemplo" style="max-width: 100%; height: auto; border-radius: 6px;">
-        
+    <div style="text-align: center;">
+
+        <img src="imagenes/imagen.png" alt="Imagen de ejemplo" style= " width: 50%; height: auto; border-radius: 6px;">
+    </div>
         <h2>Descripción del reto</h2>
         <h3><strong>Introducción:</strong> Creación de una página web utilizando solo HTML</h3>
         <p>
             Para completar el reto, se parte de una página sencilla y se debe tener:
-        <ul>
+        <ul style=" color: #a04646; font-size: 1.2em; list-style-type: square;">
             <li>Encabezado</li>
             <li>Párrafos </li>
             <li>Imágenes </li>
@@ -28,3 +58,40 @@
         </p>
         <a href="https://www.bing.com/search?q=google&qs=HS&pq=g&sc=10-1&cvid=14AEC099FCE24D06AB3BB7320E746E33&FORM=CHRDEF&sp=1&lq=0"
             target="_blank">Enlace a un sitio web</a>
+
+        
+        <div class="formulario" style="margin-top: 20px; border: 1px solid #000000; padding: 20px; border-radius: 6px;">
+                <table>
+                    <caption>Información personal</caption>
+                    <tbody>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>
+
+                        </tr>
+                        <tr>
+                            <td>Edad</td>
+                            <td><input type="text" id="edad" name="edad" required></td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Enviar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <h2>Desafio 3 del reto</h2>
+        <p>
+            <strong>Desafío:</strong> Aplicar estilos CSS sobre la página creada anteriormente para mejorar su presentación visual, sin perder funcionalidad
+            ni accesibilidad.
+        </p>
+        <h3>Requisitos:</h3 >   
+        <ol>
+            <li> Modificar la tipografía.</li>
+            <li>Jugar con colores que mejoren el contraste.</li>
+            <li>Ajustar márgenes y espaciado entre elementos.</li>
+            <li>Probar posicionamientos para lograr un diseño coherente y responsive.</li>
+        </ol>
+
+        
